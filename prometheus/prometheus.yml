@@ -1,7 +1,7 @@
 global:
     scrape_interval: 15s
 
-  scrape_configs:
+scrape_configs:
     - job_name: 'bookstore-api'
       static_configs:
         - targets: ['188.245.77.152:8080']
