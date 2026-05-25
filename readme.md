@@ -5,6 +5,7 @@ Prometheus and Grafana monitoring stack for the BookStore API and Conduit Backen
 ## Table of Contents
 
 - [Overview](#overview)
+- [Preview](#preview)
 - [Quickstart](#quickstart)
 - [Targets](#targets)
 - [Grafana Dashboards](#grafana-dashboards)
@@ -22,6 +23,10 @@ Prometheus and Grafana monitoring stack for the BookStore API and Conduit Backen
 Prometheus scrapes metrics every 15 seconds from both services.
 
 ---
+
+## Preview
+
+  ![Grafana Dashboard](img/grafana-monitoring.png)
 
 ## Quickstart
 
