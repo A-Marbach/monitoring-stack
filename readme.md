@@ -49,7 +49,7 @@ docker compose up -d
 http://<your-server-ip>:3000
 ```
 
-Default credentials: `admin / admin`
+Configure Grafana administrator credentials using environment variables before deployment.
 
 ---
 
@@ -96,8 +96,9 @@ curl http://<your-server-ip>:5000/metrics
 ### Grafana not reachable
 
 ```bash
-sudo ufw allow 3000
-sudo ufw allow 9090
+sudo ufw status
+sudo ss -tulpn | grep -E '3000|9090'
+docker compose ps
 ```
 
 ### View logs
